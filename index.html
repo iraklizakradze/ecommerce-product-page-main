@@ -16,7 +16,9 @@
   <header class="header">
     <nav class="navbar">
 
-      <div class="navbar__logo">sneakers</div>
+      <div class="navbar__logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
 
       <div class="navbar__menu">
         <ul class="navbar__list">
@@ -30,9 +32,9 @@
 
       <div class="navbar__user">
 
-        <img class="navbar__cart" src="./images/icon-cart.svg" alt="">
+        <img class="navbar__cart" src="./images/icon-cart.svg" alt="Cart">
 
-        <img class="user__avatar" src="./images/image-avatar.png" alt="">
+        <img class="user__avatar" src="./images/image-avatar.png" alt="Avatar">
   
       </div>
 
@@ -41,6 +43,74 @@
     <hr>
 
   </header>
+
+  <main class="main">
+    <div class="product__container">
+
+      <div class="left">
+        <img class="main__img" src="./images/image-product-1.jpg" alt="">
+
+        
+        <div class="img__thumbnails">
+          <img class="primaryth thumbnail" src="./images/image-product-1-thumbnail.jpg" alt="">
+          <img class="thumbnail" src="./images/image-product-2-thumbnail.jpg" alt="">
+          <img class="thumbnail" src="./images/image-product-3-thumbnail.jpg" alt="">
+          <img class="thumbnail" src="./images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+        <!-- <img class="thumbnail" src="./images/image-product-1-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="./images/image-product-4-thumbnail.jpg" alt=""> -->
+      </div>
+
+      <div class="right">
+
+        <span class="title">SNEAKER COMPANY</span>
+
+        <h1>Fall Limited Edition Sneakers</h1>
+
+        <p>These low-profile sneakers are your perferct casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything 
+          the weather can offer.
+        </p>
+
+        <div class="pricediscount">
+
+          <div class="price">
+            $125.00
+          </div>
+
+          <div class="discount">
+            50%
+          </div>
+
+        </div>
+
+        <div class="lastprice">
+          $250.00
+        </div>
+
+        <div class="addcart">
+          <div class="quantity">
+            <img src="./images/icon-minus.svg" alt="">
+            0
+            <img src="./images/icon-plus.svg" alt="">
+          </div>
+
+          <div class="button">
+
+            <button>
+              <img class="button__cart" src="./images/icon-cart.svg" alt="">
+              Add to cart
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
   
 </body>
 </html>
