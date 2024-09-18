@@ -30,6 +30,29 @@ header {
     padding: 2rem 6rem;
 }
 
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    width: 223px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--PrimaryOrange);
+    font-weight: var(--fw800);
+    gap: .5em;
+}
+
+button::before {
+    content: url('./images/icon-cart.svg');
+}
+
+p {
+    font-size: 14px;
+    color: var(--Darkgrayishblue);
+    line-height: 1.3rem;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -107,12 +130,6 @@ header {
     color: var(--Darkgrayishblue);
 }
 
-p {
-    font-size: 14px;
-    color: var(--Darkgrayishblue);
-    line-height: 1.3rem;
-}
-
 .pricediscount {
     display: flex;
     align-items: center;
@@ -151,23 +168,4 @@ p {
     border-radius: 10px;
     font-weight: var(--fw800);
     font-size: 1rem;
-}
-
-
-
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 13px;
-    width: 223px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--PrimaryOrange);
-    font-weight: var(--fw800);
-    gap: .5em;
-}
-
-.button__cart {
-    font-size: 10px;
 }
